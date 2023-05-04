@@ -90,7 +90,8 @@ class ProjectTests(TestCase):
                 'project_type': 'Machine Translation Fluency',
                 'name': 'MTFluencyProject',
                 'description': 'Description MTAFluency',
-                'talk_markdown': 'Project Markdown'
+                'talk_markdown': 'Project Markdown',
+                'character_level_selection': True
             }),
             content_type='application/json'
         )
